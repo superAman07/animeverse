@@ -1,0 +1,144 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>ANIMEvERSE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" >
+        <link  href="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+         <section class="sub-sub-header">
+             <nav>
+                 <a href="index.html"><img src="images/logo.png"></a>    
+                     <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()" ></i>
+                     <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="ALL.html">ALL</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                     </ul>
+                     </div>
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+             </nav>
+                   <h1>ALL</h1>
+         </section>
+     
+    
+    <!------------all page------------>
+
+    <section class="All-content">
+        <div class="row">
+            <div class="All-left">
+                <img src="images/All char.jpg">
+                <h2> Anime for Free ©2022 ANIMEvERSE</h2>
+                <p> <b> Beware of fake sites, only ANIMEvERSE.to is ours.
+                    Don't rely on google search! use bookmark instead.
+                    
+                   <br> If you got problem try  reload the player several times, or just switch to external player.
+                    Also worth to try in incognito mode, disabling browser extension, or clearing cache.
+                    <br>
+                    For mobile users, you can swipe left / right to open menu, schedule, and stream list.
+                    You can also install PWA (add to homescreen) to launch ANIMEvERSE like an app.</b>
+                    </p>
+                    <br>
+                    <p>ANIMEvERSE allows users to follow airing shows in the current season of anime. Following shows also triggers the app to schedule a notification that triggers when the show begins airing. <br> Users are also given the option to delay the notification so it may, for example, trigger an hour before the show starts.</p>
+                 <br>
+                 <p>ANIMEvERSE    is a site indexer, we crawl/scrape content from various third party sites, then embed it together in one plac</p>
+                      
+                 <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                    <input type=" text" placeholder="Enter Name">
+                    <input type=" email" placeholder="Enter email">
+                    <textarea  rows="5" placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit " class="hero-btn red-btn"> Post comment</button>
+                    </form>
+
+                 </div>
+
+
+
+
+                </div>
+                <div class="All-right">
+                    <h3>All Anime Types</h3>
+                    <div>
+                        <span>Action</span>
+                        <span>26k</span>
+                    </div>
+                    <div>
+                        <span>Adventure</span>
+                        <span>23k</span>
+                    </div><div>
+                        <span>Sci-fi</span>
+                        <span>12k</span>
+                    </div><div>
+                        <span>Drama</span>
+                        <span>1229</span>
+                    </div><div>
+                        <span>Horror</span>
+                        <span>8k</span>
+                    </div><div>
+                        <span>Anti-hero</span>
+                        <span>1027</span>
+                    </div><div>
+                        <span>Idol</span>
+                        <span>937</span>
+                    </div><div>
+                        <span>College</span>
+                        <span>9366</span>
+                    </div><div>
+                        <span>Ecchi</span>
+                        <span>Not Defined</span>
+                    </div>
+                    <div><span>Space</span>
+                        <span>23794</span>
+                        
+                    </div>
+                    <div>
+                        <span>Others</span>
+                        <span>Not Defined</span>
+                    </div>
+                    
+                </div>
+        </div>
+
+    </section>
+                    
+   <!-------------------------footer------------------>
+   <section class="footer">
+           <h2>About Us</h2>
+           <p>ANIMEvERSE is a site indexer, we crawl/scrape content from various third party sites,<br> then embed it together in one place, we also provide tool to manage watchlist/watch progress, cache information about anime, <br> and structure it to make them linked & organized.
+                  We are NOT stream provider, nor uploader</p>
+                       <h3>Built With</h3>
+                         <p><br> Following technologies are used in ANIMEvERSE</p>
+                           <p><b>FRONT-end</b> <br> -HTML, CSS</p>
+                           <p><b>BACK-end</b> <br> -Php</p>
+                            <div class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                    
+        
+                     </div>
+                     <p>Made with <i class="fa fa-heart-o"></i> by superAman</p>
+        
+    </section>
+
+<!----------------javaScript for Toggle Menu------------------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>ANIMEvERSE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" >
+        <link  href="https://fonts.googleapis.com/css2? 
+        family=poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body style="background-color: rgb(255, 255, 255);">
+     <section class="sub-header">
+             <nav>
+                 <a href="index.html"><img src="images/logo.png"></a>    
+                     <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()" ></i>
+                     <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="ALL.html">ALL</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                     </ul>
+                     </div>
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+             </nav>
+                <h1>ABOUT</h1>
+    </section>
+    <!------------about us content------------>
+    <section class="about-us">
+             <div class="row">
+                 <div class="about-col">
+                    <h1>World's Largest ANIME Platform</h1>
+                    <p>ANIMEvERSE is bar-none the best website for knowledge about anime. The interface is easy to use, and you can find almost any anime in the service's massive <b> library</b>.Of the standalone services, ANIMEvERSE currently leads the pack with around 1,300 anime series, a library that has grown even bigger after absorbing Funimation and VRV(Opens in a new window) in 2022.</p>
+                     <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                 </div>
+                 <div class="about-col">
+                    <img src="images/library.jpeg" >
+                 </div>
+             </div>
+    </section>
+
+   <!-------------------------footer------------------>
+     <section class="footer">
+           <h2>About Us</h2>
+             <p>ANIMEvERSE is a site indexer, we crawl/scrape content from various third party sites,<br> then embed it together in one place, we also provide tool to manage watchlist/watch progress, cache information about anime, <br> and structure it to make them linked & organized.
+                  We are NOT stream provider, nor uploader</p>
+                       <h3>Built With</h3>
+                         <p><br> Following technologies are used in ANIMEvERSE</p>
+                           <p><b>FRONT-end</b> <br> -HTML, CSS</p>
+                           <p><b>BACK-end</b> <br> -Php</p>
+                            <div class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                    
+
+                     </div>
+                     <p>Made with <i class="fa fa-heart-o"></i> by superAman</p>
+        
+     </section>
+
+
+
+<!----------------javaScript for Toggle Menu------------------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
